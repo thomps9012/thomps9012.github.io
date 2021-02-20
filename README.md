@@ -9,7 +9,7 @@ A personal blog created using NextJS detailing my thought process and solutions 
 This project is currently in development to becoming hosted on github pages. Blog posts are being added weekly and the application can be be cloned, downloaded and run on a local host.
 
 ## Project Screen Shot
-![Alt text](./client/src/assets/images/landingPage.png?raw=true "Home Page of Blog")
+![Alt text](./assets/images/landingPage.png?raw=true "Home Page of Blog")
 
 ## Installation and Setup Instructions
 
