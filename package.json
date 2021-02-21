@@ -6,7 +6,8 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start -p $PORT",
-    "export": "next export"
+    "export": "next export",
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "babel": "^6.23.0",
