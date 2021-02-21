@@ -6,7 +6,7 @@ A personal blog created using NextJS detailing my thought process and solutions 
 
 ## Project Status
 
-This project is currently in development to becoming hosted on github pages. Blog posts are being added weekly and the application can be be cloned, downloaded and run on a local host.
+This project is currently hosted on heroku via: https://rocky-earth-45819.herokuapp.com/. Blog posts are being added weekly and the application can be be cloned, downloaded and run on a local host.
 
 ## Project Screen Shot
 ![Alt text](./assets/images/landingPage.png?raw=true "Home Page of Blog")
