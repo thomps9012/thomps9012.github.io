@@ -42,6 +42,14 @@ export default function Home() {
               <time dateTime="20201-02-08">Week of February 15, 2020</time>
             </small>
           </li>
+          {/* Sherlock and Anagrams */}
+          <li className={utilStyles.listItem}>
+            <a href="/posts/SherlockAnagrams">Sherlock and Anagrams</a>
+            <br></br>
+            <small class={utilStyles.lightText}>
+              <time dateTime="20201-02-08">Week of February 22, 2020</time>
+            </small>
+          </li>
         </ul>
         <br></br>
         <p>
