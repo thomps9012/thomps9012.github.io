@@ -19,38 +19,59 @@ export default function SherlockAnagrams() {
                     Wow .. this problem crept up on me and threw me for a right doozie. I also wanted to push myself by learning a new language (C++ for this example), which luckily has a lot of crossover between JavaScript via functionality and operators.
                     Hopefully the code below helps explain the innerworkings of this behemoth of a problem in a clear, concise, digestable way.
                     <pre>
-                        //imports our preprocessor directives which are a "set up" for the source code
+                        //imports our preprocessor directives 
+                        <br></br>
+                        //which are a "set up" for the source code
                         <br></br>
                         #include {'<algorithm>'}
+                        <br></br>
                         #include {'<iostream>'}
+                        <br></br>
                         #include {'<map>'}
+                        <br></br>
                         #include {'<string>'}
+                        <br></br>
                         using namespace std;
                         <br></br>
                         <br></br>
                         //now we're going to set up our main function and declare some variables
                         <br></br>
+                        <br></br>
                         int main() {'{'}
                         <br></br>
                         int n;
                         <br></br>
-                        //declares an object (character input) that is derived from the iostream in the header file
                         <br></br>
-                        //this object used alongside an extraction operator allows it receive a stream of characters (or a string in this case)
+                        //declares an object (character input) that is derived from the iostream 
+                        <br></br>
+                        //found in the header file
+                        <br></br>
+                        //this object used alongside an extraction operator
+                        <br></br>
+                        //this allows us receive a stream of characters (or a string in this case)
+                        <br></br>
                         <br></br>
                         cin >> n;
                         <br></br>
-                        for (int t=0; t<n; t++){'{'}
+                        {'for (int t=0; t<n; t++;){'}
                         <br></br>
                         string str;
                         <br></br>
                         cin >> str;
                         <br></br>
-                        map<string, int> lib;
+                        {'map<string, int> lib;'}
                         <br></br>
-                        //sets up a double nested loop that generates nested substrings and stores them in a temporary library, this code also checks to see if the substrings are anagrams, by reversing them and checking them against one another.
                         <br></br>
-                            for(int i =1; i < str.size(); i++){'{'}
+                        //sets up a double nested loop that generates nested substrings 
+                        <br></br>
+                        //we then store them in a temporary library
+                        <br></br>
+                        //this code also checks to see if the substrings are anagrams
+                        <br></br>
+                        //we accomplish this by reversing them and checking them against one another.
+                        <br></br>
+                        <br></br>
+                            {'for(int i =1; i < str.size(); i++){'}
                             <br></br>
                             string tmp = str.substr(j, i);
                             <br></br>
@@ -70,7 +91,13 @@ export default function SherlockAnagrams() {
                         <br></br>
                         }
                         <br></br>
-                        //the for loop below checks our temporary library for the total number of anagrams, checks for duplicates, and then increments the answer count that will be returned at the end
+                        <br></br>
+                        //lastly this for loop below checks our temporary library
+                        <br></br>
+                        //we're looking for the total number of anagrams, checks for duplicates 
+                        <br></br>
+                        //we then increment the answer count that will be returned at the end
+                        <br></br>
                         <br></br>
                         int ans = 0;
                         <br></br>
@@ -80,7 +107,7 @@ export default function SherlockAnagrams() {
                             <br></br>
                             }
                             <br></br>
-                            cout << {'ans'} << endl;
+                            {'cout << ans << endl;'}
                             <br></br>
                             }
                             <br></br>
