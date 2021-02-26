@@ -117,7 +117,7 @@ export default function SherlockAnagrams() {
                             <br></br>
                             };
                     </pre>
-                    <h2>Boom ... Success!</h2>
+                    <h2>We made it!</h2>
                     Hopefully this walkthrough will help you understand how to solve the problem in C++. Thanks for taking the time to read through it!
                     
                 </p>
